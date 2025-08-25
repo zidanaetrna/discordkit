@@ -1,0 +1,32 @@
+{
+  "name": "discord-welcome-goodbye-bot",
+  "version": "1.0.0",
+  "description": "Welcome Goodbye Discord bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "welcome",
+    "goodbye",
+    "discord.js",
+    "canvas"
+  ],
+  "author": "aetrna",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "@napi-rs/canvas": "^0.1.44",
+    "dotenv": "^16.3.1",
+    "undici": "^5.28.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  }
+}
